@@ -9,18 +9,13 @@
     g.fillText( "Javascriptで試しにプログラミングして見た！", 18, 75 );
 
     g.font = "48px monospace";  g.fillStyle = "#ffffff";
-    g.fillText( "ボタンを下に表示してみた！。", 30, 140 );
-
-    g.fillStyle = "#6f6f6f",
-    g.fillRect( 22, 160, 700, 80 );
-
-    g.font = "48px monospace";  g.fillStyle = "white";
-    g.fillText( "試しにクリックしてみてください！。", 30, 140+72 );
+    g.fillText( "こんにちは世界！｜HelloWorld!", 30, 140 );
 
     g.font = "42px monospace";  g.fillStyle = "#dedede";
     g.fillText( "本サイトの開設日 2019/5/30", 1340, 890 );
 
 }
+//    ゲーム作ろうとして失敗したソースコード↓
 //    function loop() {
 //        window.requestAnimationFrame(loop);
 //    }
